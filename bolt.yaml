@@ -1,0 +1,8 @@
+modulepath: /home/christopher.lawrence/Boltdir/modules:/home/christopher.lawrence/Boltdir/site-modules:/home/christopher.lawrence/Boltdir/site:/home/christopher.lawrence/Boltdir/profiles:/home/christopher.lawrence/Boltdir/modules
+inventoryfile: "./inventory.yaml"
+concurrency: 10
+format: human
+ssh:
+  host-key-check: false
+  private-key: ~/.ssh/id_rsa
+  user: christopher.lawrence
