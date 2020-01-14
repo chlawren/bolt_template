@@ -1,4 +1,4 @@
-# This file was automatically generated on 2020-01-13 17:09:09 +0000.
+# This file was automatically generated on 2020-01-14 14:00:55 +0000.
 # Use the 'puppet generate types' command to regenerate this file.
 
 # The node_group type creates and manages node groups for the PE Node Manager

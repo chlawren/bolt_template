@@ -1,4 +1,4 @@
-# This file was automatically generated on 2020-01-13 17:09:09 +0000.
+# This file was automatically generated on 2020-01-14 14:00:56 +0000.
 # Use the 'puppet generate types' command to regenerate this file.
 
 # The client-side description of a yum repository. Repository
