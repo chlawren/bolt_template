@@ -1,32 +1,16 @@
 ---
 version: 2
 groups:
-- name: peadm
-  facts:
-    operatingsystem: CentOS
-  vars:
-    environment: development
-  features:
-  - puppet-agent
-  config:
-    ssh:
-      user: christopher.lawrence
-      run-as: root
-      private-key: "~/.ssh/id_rsa"
-      host-key-check: false
-  targets:
-  - peadm-01.home
-  - peadm-02.home
-  - peadm-03.home
-groups:
-  - name: pe_nodes
+  - name: peadm
     config:
-      transport: ssh
       ssh:
-      user: christopher.lawrence
-      run-as: root
-      private-key: "~/.ssh/id_rsa"
-      host-key-check: false
+        user: christopher.lawrence
+        run-as: root
+        private-key: "~/.ssh/id_rsa"
+        host-key-check: false
     targets:
       - peadm-01.home
       - peadm-02.home
+      - peadm-03.home
+      - agent-01.home
+      - agent-02.home

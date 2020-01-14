@@ -2,7 +2,3 @@ modulepath: /home/christopher.lawrence/Boltdir/modules:/home/christopher.lawrenc
 inventoryfile: "./inventory.yaml"
 concurrency: 10
 format: human
-ssh:
-  host-key-check: false
-  private-key: ~/.ssh/id_rsa
-  user: christopher.lawrence
