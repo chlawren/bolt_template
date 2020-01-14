@@ -1,0 +1,14 @@
+---
+version: 2
+groups:
+  - name: pe_nodes
+    config:
+      transport: ssh
+      ssh:
+        host-key-check: false
+        user: christopher.lawrence
+        run-as: root
+        tty: true
+    targets:
+      - peadm-01.home
+      - peadm-02.home

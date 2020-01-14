@@ -1,0 +1,9 @@
+{
+  "master_host": "peadm-01.home",
+  "compiler_hosts": "peadm-02.home",
+
+  "console_password": "puppetlabs",
+  "dns_alt_names": [ "puppet", "puppet.home" ],
+  "compiler_pool_address": "peadm-01.home",
+  "version": "2018.1.4"
+}

@@ -1,0 +1,16 @@
+{
+  "CHANGELOG.md": "cd388f53d9a099425b70088d7f1507ca",
+  "Gemfile": "a834bd8e47a9754e5341d24c7c908042",
+  "README.md": "a03948f74c3049c26caca2b443fc8d1a",
+  "Rakefile": "dea9b7fb13224f44edcbbe636db85050",
+  "appveyor.yml": "105dce352be3244a497e667f6b0403c7",
+  "metadata.json": "746d50abd765532948a53638faf6a34c",
+  "spec/default_facts.yml": "4de3cb611af6981a6d22bc77d7dd6f6f",
+  "spec/spec_helper.rb": "cfd12e709170c04b80e3c1b62dd8c3ab",
+  "tasks/command.json": "37c999f8434af9529861b629b8fd60b9",
+  "tasks/command.rb": "c4c6d6866242b93b20f005c6514f4873",
+  "tasks/script.json": "a2bfebd86af586735e4c1e53fc2d7aa5",
+  "tasks/script.rb": "961e98fe1bf540fc8bf9d79b4688ca30",
+  "tasks/upload.json": "dd12ba1ef951958314af25eaf2551ce1",
+  "tasks/upload.rb": "b8a0049533f85a080e1d822f38095fe8"
+}
