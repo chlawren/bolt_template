@@ -1,16 +1,22 @@
 ---
 version: 2
 groups:
-  - name: peadm
+  - name: linux
     config:
+      transport: ssh
       ssh:
         user: vagrant
         run-as: root
         private-key: "~/.ssh/id_rsa"
         host-key-check: false
     targets:
-      - peadm-01.home
-      - peadm-02.home
-      - peadm-03.home
-      - agent-01.home
       - agent-02.home
+groups:
+  - name: win
+    config:
+      transport: winrm
+      winrm:
+        user: vagrant
+        ssl: false
+    targets:
+      - win-10.home

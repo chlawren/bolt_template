@@ -5,5 +5,8 @@ ssh:
   host-key-check: false
   private-key: ~/.ssh/id_rsa
   user: vagrant
-  interpreters:
-    rb: /Users/christopher.lawrence/.rbenv/versions/2.6.5/bin/ruby
+  run-as: root
+winrm:
+  user: vagrant
+  password: vagrant
+  ssl: false
