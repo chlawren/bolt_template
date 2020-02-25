@@ -1,4 +1,0 @@
-host gitlab
-  IdentityFile $HOME/.ssh/r10k_deploy
-  User git
-  StrictHostKeyChecking no

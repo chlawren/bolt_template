@@ -1,9 +1,0 @@
-{
-  "master_host": "peadm-01.pe",
-  "compiler_hosts": "peadm-02.pe",
-
-  "console_password": "puppet",
-  "dns_alt_names": [ "pe-puppet.pe", "pe-puppet" ],
-  "compiler_pool_address": "peadm-01.pe",
-  "version": "2019.1.1"
-}

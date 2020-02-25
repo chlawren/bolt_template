@@ -1,4 +1,4 @@
-plan peadm::switch_master (
+plan pecert_regen::switch_master (
   TargetSpec $nodes,
   String $master,
   Boolean $sign_csr = false,
@@ -9,7 +9,7 @@ plan peadm::switch_master (
 $certname = get_targets($nodes).map |$a| { $a.name }
 
   # Task to stop Puppet and change the Puppet Server name in puppet.conf
-    run_task ('peadm::agent_switchover',$nodes,
+    run_task ('pecert_regen::agent_switchover',$nodes,
       master => $master
   )
 
